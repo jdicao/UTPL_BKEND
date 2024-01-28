@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/jdicao/UTPL_BackEnd.git
+          uri: https://github.com/jdicao/UTPL_BKEND.git
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
