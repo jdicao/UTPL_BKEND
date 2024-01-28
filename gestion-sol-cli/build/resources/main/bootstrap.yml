@@ -7,7 +7,6 @@ spring:
       username: root
       password: s3cr3t
 
-
 #server:
 #  port: 8091
 #

@@ -48,7 +48,7 @@ public class SolicitudController {
         return ResponseEntity.status(HttpStatus.CREATED).body(solicitudCreada);
     }
 
-    //eliminar solicitud
+    //eliminar solicitud que no han sido procesadas
     @DeleteMapping(value = "/{id}")
     public ResponseEntity<String> deleteSolicitud(@PathVariable("id") Long id){
         String respuesta = solicitudService.deleteSolicitud(id);
